@@ -1,0 +1,24 @@
+{
+  "name": "realtime-errors-service",
+  "version": "0.0.1wip",
+  "description": "Thing that queries ElasticSearch and vomits out new error documents as HTTP server-sent events",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/nodeunit/bin/nodeunit test.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "console-stamp": "^0.2.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "livescript": "^1.4.0",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "request-promise": "^1.0.2",
+    "yargs": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  },
+  "private": true
+}
